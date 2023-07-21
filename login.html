@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login page</title>
+    <style>
+body{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: rgb(137, 70, 70);
+}
+button
+{
+    background-color: #5b2b46;
+    width: 100%;
+    columns: rgb(248,24,248);
+    padding: 10px;
+    margin: 10px 0px;
+    cursor: pointer;
+}
+input[type=text],input[type=password]
+{
+    width: 100%;
+    margin: 8px 0px;
+    padding: 12px 20px;
+    border: 2px solid rgb(248,24,248);
+    box-sizing: border-box;
+}
+button :hover {
+     opacity: 0.7;
+}
+
+    </style>
+</head>
+<body>
+    
+    <p style="text-align: center;"> Login Form </p>
+<form style="border: 3px solid #521235;">
+<div style="padding: 25px; background-color: aqua;">
+    <label>Username:</label><br>
+    <input type="text" name="username" placeholder="Enter your username">
+<br>
+<label>Password:</label><br>
+  <input type="password" name="password" placeholder="Enter your password" required>
+  <br>
+
+  <button type="button">Login</button>
+  <input type="checkbox" checked>Remember me
+  <button type="button" id="cancelbt">Cancel</button>
+  <br>
+  <a href="#">Forget Password</a>
+  <br>
+  <a href="signup.html">Register</a>
+
+</div>
+
+</form>
+</body>
+</html>

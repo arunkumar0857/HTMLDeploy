@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Signup</title>
+    <style>
+input[type=text],input[typ=password],input[type=mail]
+{
+padding: 10px;
+margin: 8px 0px;
+box-sizing: border-box;
+}
+
+    </style>
+</head>
+<body>
+    <h1 style="text-align: center;"> Registration Form </h1>
+    <br>
+    <form style=" font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; padding: 25px; background-color: rgb(70, 135, 199);">
+        <div style="background-color: aqua;">
+        <label>First Name:</label>
+        <input type="text" name="first name" placeholder="Enter first name" maxlength="15">
+<br>
+
+<label> Middle Name:</label>
+<input type="text" name="Middle Name " placeholder=" Enter Middle Name ">
+<br>
+<label>Last Name:</label>
+<input type="text" name="Last name" placeholder="Enter Last Name" maxlength="15">
+<br>
+<label>Course:</label>
+<select>
+    <option value="Courses">Course</option>
+    <option value="BCA">BCA</option>
+    <option value="B.tech">B.tech</option>
+    <option value="M.Tech">M.tech</option>
+    <option value="MCA">MCA</option>
+</select>
+<br>
+<br>
+<label> Gender:</label><br>
+<input type="radio" name="Male">Male<br>
+<input type="radio" name="Female">Female<br>
+<input type="radio" name="Other">Other<br>
+<br>
+<label>Phone number</label>
+<input type="text" value="+91" maxlength="3" width="0px">
+<input type="number" maxlength="10">
+<br>
+<br>
+<label>Address:</label>
+<br>
+<textarea cols="80" rows="5">Type your address here ....</textarea>
+<br> <br>
+<label>Email</label>
+<input type="email" id="email" name="email">
+<br><br>
+<label>Password</label>
+<input type="password" id="password" name="password">
+<br>
+<label>Re-Enter Password</label>
+<input type="password" id="password" name="password">
+<br>
+
+
+
+
+    </form>
+</div>
+</body>
+</html>
